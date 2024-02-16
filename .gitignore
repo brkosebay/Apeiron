@@ -1,0 +1,14 @@
+# Node modules
+server/node_modules/
+client/node_modules/
+
+# Logs
+server/*.log
+client/*.log
+
+# Other unnecessary files
+server/.DS_Store
+.DS_Store
+client/.DS_Store
+server/*.env
+client/*.env

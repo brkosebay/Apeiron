@@ -1,0 +1,21 @@
+.prize-pot {
+  background-color: #222;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.prize-pot h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.prize-pot p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ddd;
+}

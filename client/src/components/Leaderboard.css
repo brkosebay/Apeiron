@@ -1,0 +1,44 @@
+.leaderboard {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #ddd;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+  
+  .rank,
+  .name,
+  .score,
+  .ath,
+  .ltp {
+    flex: 1;
+  }
+
+  .search-sort-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .search-sort-container input,
+  .search-sort-container select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  .search-sort-container select {
+    cursor: pointer;
+  }
+  
